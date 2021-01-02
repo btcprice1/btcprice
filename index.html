@@ -19,34 +19,37 @@
       html,
       body {
         background-color: #de8d4c;
+        /* height: 100%; */
       }
-      .container {
+      /* .container {
         margin-top: 10%;
         text-align: center;
-      }
+      } */
       h1,
       p {
         color: white;
         font-size: 100pt;
         font-family: "Audiowide", cursive;
       }
-      footer {
-        margin-top: 30%;
+      a img {
+        margin-top: 200px;
       }
     </style>
   </head>
   <body>
-    <div class="jumbotron">
-      <div class="container">
+    <div
+      class="d-flex align-items-center justify-content-center"
+      style="height: 1000px"
+    >
+      <div class="p-2 bd-highlight col-example">
         <h1>Bitcoin</h1>
         <p id="btc"></p>
-        <footer>
-          <a href="https://cutt.ly/jjoftuq"
-            ><img src="btcbanner.png" alt="Bitcoin"
-          /></a>
-        </footer>
+        <a href="https://cutt.ly/ljohkXu"
+          ><img src="btcbanner.png" alt="Bitcoin"
+        /></a>
       </div>
     </div>
+
     <script>
       var currentPrice = new XMLHttpRequest();
 
